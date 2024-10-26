@@ -1,0 +1,7 @@
+python -m venv venv
+
+venv\Scripts\activate
+
+pip install Flask
+pip install psycopg2-binary
+pip show psycopg2-binary

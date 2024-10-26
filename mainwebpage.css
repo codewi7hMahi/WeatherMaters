@@ -1,0 +1,101 @@
+body{
+    display:flex;
+    flex-wrap:wrap;
+}
+h1{
+    text-align: center;
+    margin-left: 300px;
+
+}
+#div2{
+    flex:1;
+}
+
+#profileButton{
+    border-radius: 20%;
+    width:10%;
+    height: 40px;
+    font-size:20px;
+    background-color:bisque;
+    
+}
+#repButton{
+    margin-top:150px;
+    margin-left:100px;
+    height:90px;
+    width:700px;
+    border-radius: 5px;
+    z-index: 1;
+    background-color: bisque;
+
+
+}
+
+#obsButton{
+    margin-top:150px;
+    margin-left:100px;
+    height:90px;
+    width:700px;
+    border-radius: 5px;
+    background-color: bisque;
+}
+#weatherImg{
+    width:100%;
+    background-image:url(weather.jpg);
+    background-size: cover;
+    background-repeat:no-repeat;
+    background-position: center;
+    height:100vh;
+    margin-right: 400px;
+    padding:4px;
+    position:absolute;
+    top:0;
+    left:0;
+    z-index:-1;
+    filter:blur(5px)
+}
+#leaderboard-container{
+    flex:1;
+    max-width: 400px;
+    margin-left: 20px;
+    margin-top:58px;
+    margin-right:70px;
+}
+#leaderboard-title {
+    text-align: center;
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 80px;
+    margin-top:90px;
+  
+  }
+#leaderboard {
+    background-color: aqua; 
+    padding: 20px; 
+    border: 1px solid black; 
+    
+    
+
+  }
+  
+  table {
+    width: 100%; 
+    border-collapse: collapse;
+    border: 1px solid black;
+    
+  }
+  
+  th, td {
+    border: 1px solid #ccc; 
+    padding: 20px; 
+    text-align: left;
+    font-size: 24px; 
+    background-color: antiquewhite;
+  }
+  linearGradient
+  th {
+    background-color: #ddd; 
+    font-size: 28px; 
+  }
+
+
